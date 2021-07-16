@@ -104,6 +104,10 @@ body {
     padding: calc(5rem + var(--header-height)) 0;
 }
 
+.section #contact.section {
+    padding: 1.5rem;
+}
+
 .section .title {
     margin-bottom: 1rem;
 }
