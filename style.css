@@ -25,7 +25,7 @@ img {
  :root {
     --header-height: 4.5rem;
     /* colors */
-    --hue: 200;
+    --hue: 530;
     /* HSL color mode */
     --base-color: hsl(var(--hue) 36% 57%);
     --base-color-second: hsl(var(--hue) 65% 88%);
@@ -431,10 +431,13 @@ nav.show div.icon-close {
 }
 
 #testimonials cite img {
-    width: 2rem;
-    height: 2rem;
+    width: 17rem;
+    height: 12rem;
     object-fit: cover;
-    clip-path: circle();
+    display: flex;
+    align-items: center;
+    font-style: normal;
+   
     margin-right: 0.5rem;
 }
 
